@@ -1,9 +1,9 @@
 # windows-py-internal-audio
-This script finds the device that is capable of using loopback, then opens a stream to get audio directly from system. 
+This script finds the device that is capable of using loopback, then opens a stream to get audio directly from the system. 
 
 It can be integrated with audio visualisation/analysis projects.  
 The script automatically detects the device and opens a loopback stream.  
-You can get an audio stream directlly from your computer internal audio without having to specify stream parameters or detect audio device that is capable of loopback.  
+You can get an audio stream directlly from your computer internal audio without having to specify stream parameters or detect the audio device that is capable of loopback.  
 
 A loopback stream is the best choice because you don't have to deal with microphone noise, aux input or virtual audio devices.
 
