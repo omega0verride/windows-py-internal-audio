@@ -3,13 +3,13 @@ This script finds the device that is capable of using loopback, then opens a str
 
 It can be integrated with audio visualisation/analysis projects.  
 The script automatically detects the device and opens a loopback stream.  
-You can get an audio stream directlly from your computer internal audio without having to specify stream parameters or detect the audio device that is capable of loopback.  
+You can get an audio stream directly from your computer internal audio without having to specify stream parameters or detect the audio device that is capable of loopback.  
 
 A loopback stream is the best choice because you don't have to deal with microphone noise, aux input or virtual audio devices.
 
 # Usage
 
-import the script (make sure you have it in the same directory and you have an empty "__init__.py" file)
+import the script (make sure you have it in the same directory and you have an empty "\__init__.py" file)
 ```
 import audio_loopback_device as lbdevice
 import numpy as np
