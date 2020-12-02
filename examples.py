@@ -1,4 +1,5 @@
 import audio_loopback_device as lbdevice
+import numpy as np
 
 if __name__ == '__main__':
     device = lbdevice.get_loopback_device()  # gets current output device that supports audio loopback
@@ -19,6 +20,7 @@ if __name__ == '__main__':
     #                 input_device_index=audio_output_wasapi_device["index"],
     #                 as_loopback=True)
 
+    input("\nPress a key to continue to data collecting example... ")
     while 1:
         data = np.fromstring(stream.read(2 ** 11), dtype=np.int16)
         print(data)
