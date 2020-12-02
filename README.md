@@ -9,7 +9,7 @@ A loopback stream is the best choice because you don't have to deal with microph
 
 # Usage
 
-import the script (make sure you have it in the same directory and you have an empty \__init__.py file)
+import the script (make sure you have it in the same directory and you have an empty \_\_init\_\_.py file)
 ```
 import audio_loopback_device as lbdevice
 import numpy as np
