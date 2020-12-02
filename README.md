@@ -17,7 +17,7 @@ import numpy as np
 
 Opening a stream that gets data from internal audio is as simple as:
 ```
-    stream = lbdevice.get_loopback_stream()  # opens a PyAudio stream using the loopback device
+stream = lbdevice.get_loopback_stream()  # opens a PyAudio stream using the loopback device
 ```
 
 If you just want to find the device that supports loopback:
